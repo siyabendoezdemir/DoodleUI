@@ -1,0 +1,43 @@
+{
+  "name": "doodle-ui",
+  "version": "1.0.0",
+  "description": "A UI component library made by me and for me because I love the doodle designs",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c --bundleConfigAsCjs",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "author": "Siyabend Özdemir",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@storybook/addon-essentials": "^7.6.8",
+    "@storybook/addon-interactions": "^7.6.8",
+    "@storybook/addon-links": "^7.6.8",
+    "@storybook/addon-onboarding": "^1.0.10",
+    "@storybook/addon-styling-webpack": "^0.0.6",
+    "@storybook/blocks": "^7.6.8",
+    "@storybook/react": "^7.6.8",
+    "@storybook/react-vite": "^7.6.8",
+    "@storybook/test": "^7.6.8",
+    "@types/react": "^18.2.47",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup": "^4.9.5",
+    "rollup-plugin-dts": "^6.1.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-sass": "^1.12.21",
+    "rollup-plugin-scss": "^4.0.0",
+    "sass": "^1.69.7",
+    "sass-loader": "^13.3.3",
+    "storybook": "^7.6.8",
+    "typescript": "^5.3.3",
+    "webpack": "^5.89.0"
+  }
+}
