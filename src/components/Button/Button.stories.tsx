@@ -4,8 +4,13 @@ import Button from "./Button";
 
 const meta: Meta<typeof Button> = {
   component: Button,
-  title: "Marbella/Button",
-  argTypes: {},
+  title: "Elements/Button",
+  argTypes: {
+    size: {
+      options: ['small', 'medium', 'large'],
+      control: { type: 'radio' },
+    },
+  },
 };
 export default meta;
 
