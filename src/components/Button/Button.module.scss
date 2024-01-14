@@ -1,0 +1,55 @@
+.button {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  line-height: 1;
+  font-size: 1em;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 10px;
+
+  transition: all 0.05s;
+
+  &.primary {
+    color: #000;
+    background-color: #fff;
+    border: 2px solid black;
+    box-shadow: -3px 3px 0px 0px #000000;
+
+    &:not(&:disabled) {
+      &:active {
+        box-shadow: -1px 1px 0px 0px;
+        transform: translate(-2px, 2px);
+      }
+    }
+  }
+
+  &.secondary {
+    color: #fff;
+    background-color: #1e1e1e;
+    border: 2px solid white;
+    box-shadow: -3px 3px 0px 0px #fff;
+
+    &:not(&:disabled) {
+      &:active {
+        box-shadow: -1px 1px 0px 0px;
+        transform: translate(-2px, 2px);
+      }
+    }
+  }
+
+  &.small {
+    padding: 10px 20px 10px;
+  }
+
+  &.medium {
+    padding: 14px 30px 16px;
+  }
+
+  &.large {
+    padding: 18px 35px 22px;
+  }
+
+  &.disabled {
+    cursor: default;
+    opacity: 0.5;
+  }
+}

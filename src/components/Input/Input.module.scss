@@ -1,0 +1,61 @@
+.input {
+  height: 40px;
+  width: 300px;
+  border-radius: 3px;
+  border: solid 2px #000;
+  box-shadow: -3px 3px 0px 0px #000000;
+  background-color: #fff;
+
+  &.primary {
+    background-color: red;
+  }
+
+  &.secondary {
+    background-color: blue;
+  }
+
+  &:focus {
+    border: solid 2px #1b116e;
+  }
+
+  &.disabled {
+    border: solid 2px #e4e3ea;
+  }
+
+  &.error {
+    border: solid 2px #a9150b;
+  }
+
+  &.success {
+    border: solid 2px #067d68;
+  }
+}
+
+.label {
+  font-size: 14px;
+  color: #080808;
+  padding-bottom: 6px;
+
+  &.disabled {
+    color: #e4e3ea;
+  }
+}
+
+.message {
+  font-size: 14px;
+  color: #a9150b;
+  padding-top: 4px;
+}
+
+.text {
+  margin: 0px;
+  color: #080808;
+
+  &.disabled {
+    color: #e4e3ea;
+  }
+
+  &.error {
+    color: #a9150b;
+  }
+}
