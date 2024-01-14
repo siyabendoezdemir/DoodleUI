@@ -37,7 +37,7 @@ export const Small: Story = (args) => (
   <Input data-testId="InputField-id" {...args} />
 );
 Small.args = {
-  primary: false,
+  primary: true,
   size: "small",
   error: false,
   disabled: false,
@@ -48,7 +48,7 @@ export const Medium: Story = (args) => (
   <Input data-testId="InputField-id" {...args} />
 );
 Medium.args = {
-  primary: false,
+  primary: true,
   size: "medium",
   error: false,
   disabled: false,
@@ -59,7 +59,7 @@ export const Large: Story = (args) => (
   <Input data-testId="InputField-id" {...args} />
 );
 Large.args = {
-  primary: false,
+  primary: true,
   size: "large",
   error: false,
   disabled: false,
