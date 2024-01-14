@@ -1,25 +1,40 @@
 .input {
   height: 40px;
-  width: 300px;
-  border-radius: 3px;
-  border: solid 2px #000;
-  box-shadow: -3px 3px 0px 0px #000000;
-  background-color: #fff;
+  padding: 0 10px;
+  border-radius: 10px;
+  font-size: 16px;
 
   &.primary {
-    background-color: red;
+    border: solid 2px #000;
+    box-shadow: -3px 3px 0px 0px #000000;
+    background-color: #fff;
   }
 
   &.secondary {
-    background-color: blue;
+    border: solid 2px #fff;
+    box-shadow: -3px 3px 0px 0px #fff;
+    background-color: #000;
+    color: #fff;
+  }
+
+  &.small{
+    width: 150px;
+  }
+
+  &.medium{
+    width: 200px;
+  }
+
+  &.large{
+    width: 250px;
   }
 
   &:focus {
-    border: solid 2px #1b116e;
+    outline: none;
   }
 
   &.disabled {
-    border: solid 2px #e4e3ea;
+    background-color: #e4e3ea;
   }
 
   &.error {
@@ -35,6 +50,10 @@
   font-size: 14px;
   color: #080808;
   padding-bottom: 6px;
+
+  .secondary {
+    color: #fff;
+  }
 
   &.disabled {
     color: #e4e3ea;
