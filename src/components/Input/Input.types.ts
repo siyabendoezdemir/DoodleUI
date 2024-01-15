@@ -1,9 +1,11 @@
 import { ChangeEventHandler } from "react";
 
 export interface InputProps {
+  width?: number;
+  height?: number;
+  fontSize?: number;
   id?: string;
   primary?: boolean;
-  size?: "small" | "medium" | "large";
   label?: string;
   error?: boolean;
   message?: string;
