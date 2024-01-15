@@ -15,8 +15,10 @@ export const Primary: Story = (args) => (
   <Input data-testId="InputField-id" {...args} />
 );
 Primary.args = {
+  width: 400,
+  height: 50,
+  fontSize: 20,
   primary: true,
-  size: "medium",
   error: false,
   disabled: false,
   label: "Primary",
@@ -26,41 +28,10 @@ export const Secondary: Story = (args) => (
   <Input data-testId="InputField-id" {...args} />
 );
 Secondary.args = {
+  width: 400,
+  height: 50,
+  fontSize: 20,
   primary: false,
-  size: "medium",
-  error: false,
-  disabled: false,
-  label: "Primary",
-};
-
-export const Small: Story = (args) => (
-  <Input data-testId="InputField-id" {...args} />
-);
-Small.args = {
-  primary: true,
-  size: "small",
-  error: false,
-  disabled: false,
-  label: "Primary",
-};
-
-export const Medium: Story = (args) => (
-  <Input data-testId="InputField-id" {...args} />
-);
-Medium.args = {
-  primary: true,
-  size: "medium",
-  error: false,
-  disabled: false,
-  label: "Primary",
-};
-
-export const Large: Story = (args) => (
-  <Input data-testId="InputField-id" {...args} />
-);
-Large.args = {
-  primary: true,
-  size: "large",
   error: false,
   disabled: false,
   label: "Primary",
@@ -70,8 +41,10 @@ export const Success: Story = (args) => (
   <Input data-testId="InputField-id" {...args} />
 );
 Success.args = {
+  width: 400,
+  height: 50,
+  fontSize: 20,
   primary: true,
-  size: "medium",
   error: false,
   success: true,
   disabled: false,
@@ -82,8 +55,10 @@ export const Error: Story = (args) => (
   <Input data-testId="InputField-id" {...args} />
 );
 Error.args = {
+  width: 400,
+  height: 50,
+  fontSize: 20,
   primary: true,
-  size: "medium",
   error: true,
   disabled: false,
   message: "Error",
@@ -93,8 +68,10 @@ export const Disabled: Story = (args) => (
   <Input data-testId="InputField-id" {...args} />
 );
 Disabled.args = {
+  width: 400,
+  height: 50,
+  fontSize: 20,
   primary: true,
-  size: "medium",
   disabled: true,
   label: "Disabled",
 };

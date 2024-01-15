@@ -3,9 +3,11 @@ import { InputProps } from "./Input.types";
 import styles from "./Input.module.scss";
 
 const Input: FC<InputProps> = ({
+  width = 400,
+  height = 50,
+  fontSize,
   id,
   primary,
-  size = "medium",
   disabled,
   label,
   message,
@@ -15,6 +17,12 @@ const Input: FC<InputProps> = ({
   placeholder,
   ...props
 }) => {
+  const inputStyles = {
+    width: `${width}px`,
+    height: `${height}px`,
+    fontSize: `${fontSize}px`,
+  };
+
   return (
     <Fragment>
       <div className={styles.label}>
@@ -35,12 +43,12 @@ const Input: FC<InputProps> = ({
         disabled={disabled}
         className={`
         ${styles.input} 
-        ${styles[size]}
         ${disabled ? styles.disabled : ""} 
         ${error ? styles.error : ""} 
         ${success ? styles.success : ""} 
         ${primary ? styles.primary : styles.secondary}`}
         placeholder={placeholder}
+        style={inputStyles}
         {...props}
       />
       <div className={styles.message}>

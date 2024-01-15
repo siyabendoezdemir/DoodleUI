@@ -6,10 +6,6 @@ const meta: Meta<typeof Button> = {
   component: Button,
   title: "Elements/Button",
   argTypes: {
-    size: {
-      options: ['small', 'medium', 'large'],
-      control: { type: 'radio' },
-    },
   },
 };
 export default meta;
@@ -20,6 +16,9 @@ export const Primary: Story = (args) => (
   <Button data-testId="InputField-id" {...args} />
 );
 Primary.args = {
+  width: 200,
+  height: 50,
+  fontSize: 16,
   primary: true,
   disabled: false,
   text: "Primary",
@@ -41,34 +40,4 @@ Disabled.args = {
   primary: false,
   disabled: true,
   text: "Disabled",
-};
-
-export const Small: Story = (args) => (
-  <Button data-testId="InputField-id" {...args} />
-);
-Small.args = {
-  primary: true,
-  disabled: false,
-  size: "small",
-  text: "Small",
-};
-
-export const Medium: Story = (args) => (
-  <Button data-testId="InputField-id" {...args} />
-);
-Medium.args = {
-  primary: true,
-  disabled: false,
-  size: "medium",
-  text: "Medium",
-};
-
-export const Large: Story = (args) => (
-  <Button data-testId="InputField-id" {...args} />
-);
-Large.args = {
-  primary: true,
-  disabled: false,
-  size: "large",
-  text: "Large",
 };
