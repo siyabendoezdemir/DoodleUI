@@ -30,7 +30,6 @@
 * [Contributing](#contributing)
 * [License](#license)
 * [Authors](#authors)
-* [Acknowledgements](#acknowledgements)
 
 ## About The Project
 
@@ -101,9 +100,3 @@ As of right now DoodleUI is not open to the general public and therefore I ask y
 ## Authors
 
 * **Siyabend Özdemir** - *Front-End Developer* - [Siyabend Özdemir](https://github.com/siyabendoezdemir/) - *Founder and developer behind DoodleUI*
-
-## Acknowledgements
-
-* [](https://github.com/ShaanCoding/)
-* []()
-* []()
