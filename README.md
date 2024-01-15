@@ -83,7 +83,7 @@ DoodleUI can be used in any project and for any purpose. Before you use it howev
 
 ## Roadmap
 
-See the [open issues](https://github.com/siyabendoezdemir/ReadME-Generator/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/siyabendoezdemir/DoodleUI/issues) for a list of proposed features (and known issues).
 
 ## Contributing
 
