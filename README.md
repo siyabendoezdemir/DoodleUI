@@ -1,6 +1,6 @@
 <br/>
 <p align="center">
-  <a href="https://github.com/siyabendoezdemir/ReadME-Generator">
+  <a href="https://github.com/siyabendoezdemir/DoodleUI">
     <img src="https://lh3.googleusercontent.com/drive-viewer/AEYmBYSLmwhgBOQFCTFBEYCTR1rcYlVIiP4MSJN2lGhc3i1qQuaeu-wrytvjUvqQcb_mjUv5dBABVVvnGWMHG9p_nArzaHc9gg=s2560" alt="Logo" width="80" height="80">
   </a>
 
