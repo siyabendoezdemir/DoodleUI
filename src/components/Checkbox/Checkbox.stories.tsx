@@ -1,10 +1,10 @@
 import React from "react";
 import { Meta, StoryObj } from "@storybook/react";
-import Switch from "./Switch";
+import Checkbox from "./Checkbox";
 
-const meta: Meta<typeof Switch> = {
-  component: Switch,
-  title: "Elements/Switch",
+const meta: Meta<typeof Checkbox> = {
+  component: Checkbox,
+  title: "Elements/Checkbox",
   tags: ["autodocs"],
   argTypes: {
     size: {
@@ -15,22 +15,22 @@ const meta: Meta<typeof Switch> = {
 };
 export default meta;
 
-type Story = StoryObj<typeof Switch>;
+type Story = StoryObj<typeof Checkbox>;
 
 export const Primary: Story = (args) => (
-  <Switch data-testId="SwitchField-id" {...args} />
+  <Checkbox data-testId="CheckboxPrimary-id" {...args} />
 );
 Primary.args = {
   isChecked: false,
   primary: true,
   size: "medium",
   onToggle() {
-      console.log("Switch toggled!");
+    console.log("Checkbox toggled!");
   },
 };
 
 export const Secondary: Story = (args) => (
-  <Switch data-testId="SwitchField-id" {...args} />
+  <Checkbox data-testId="CheckboxSecondary-id" {...args} />
 );
 Secondary.args = {
   isChecked: false,
@@ -39,7 +39,7 @@ Secondary.args = {
 };
 
 export const Small: Story = (args) => (
-  <Switch data-testId="SwitchField-id" {...args} />
+  <Checkbox data-testId="CheckboxSmall-id" {...args} />
 );
 Small.args = {
   isChecked: false,
@@ -48,7 +48,7 @@ Small.args = {
 };
 
 export const Large: Story = (args) => (
-  <Switch data-testId="SwitchField-id" {...args} />
+  <Checkbox data-testId="CheckboxLarge-id" {...args} />
 );
 Large.args = {
   isChecked: false,
@@ -57,7 +57,7 @@ Large.args = {
 };
 
 export const Checked: Story = (args) => (
-  <Switch data-testId="SwitchField-id" {...args} />
+  <Checkbox data-testId="CheckboxChecked-id" {...args} />
 );
 Checked.args = {
   isChecked: true,
@@ -66,7 +66,7 @@ Checked.args = {
 };
 
 export const Unchecked: Story = (args) => (
-  <Switch data-testId="SwitchField-id" {...args} />
+  <Checkbox data-testId="CheckboxUnchecked-id" {...args} />
 );
 Unchecked.args = {
   isChecked: false,
