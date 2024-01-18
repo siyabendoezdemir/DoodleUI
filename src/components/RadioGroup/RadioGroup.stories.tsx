@@ -15,7 +15,7 @@ const meta: Meta<typeof RadioGroup> = {
       control: { type: "range", min: 1, max: 50, step: 1 },
     },
     defaultValue: {
-        control: { type: "text"}
+      control: { type: "text" },
     },
   },
 };
