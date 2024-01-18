@@ -25,9 +25,6 @@ Primary.args = {
   primary: true,
   size: "medium",
   label: "Yes I understand",
-  onToggle() {
-    console.log("Switch toggled!");
-  },
 };
 
 export const Secondary: Story = (args) => (
