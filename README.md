@@ -10,9 +10,9 @@
     A minimalistic UI component library with a doodle style
     <br/>
     <br/>
-    <a href="https://github.com/siyabendoezdemir/ReadME-Generator/issues">Report Bug</a>
+    <a href="https://github.com/siyabendoezdemir/DoodleUI/issues">Report Bug</a>
     .
-    <a href="https://github.com/siyabendoezdemir/ReadME-Generator/issues">Request Feature</a>
+    <a href="https://github.com/siyabendoezdemir/DoodleUI/issues">Request Feature</a>
   </p>
 </p>
 
@@ -88,8 +88,6 @@ See the [open issues](https://github.com/siyabendoezdemir/DoodleUI/issues) for a
 ## Contributing
 
 Currently I am not open to contributions for DoodleUI. Feel free to create requests though for new components and features or to report bugs and issues.
-
-### Creating A Pull Request
 
 
 

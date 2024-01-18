@@ -14,6 +14,9 @@ const meta: Meta<typeof RadioGroup> = {
     spacing: {
       control: { type: "range", min: 1, max: 50, step: 1 },
     },
+    defaultValue: {
+        control: { type: "text"}
+    },
   },
 };
 export default meta;
