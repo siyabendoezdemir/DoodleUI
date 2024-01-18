@@ -93,6 +93,8 @@
   }
 
   &.secondary {
+    color: #fff;
+
     .radioInput {
       &:checked ~ .checkmark {
         background-color: #fff;
