@@ -79,7 +79,7 @@ npm run storybook
 
 ## Usage
 
-DoodleUI can be used in any project and for any purpose. Before you use it however send me a quick email and tell me about your project and why you want to use DoodleUI 😄
+DoodleUI can be used in any project and for any purpose. Before you use it however send me a quick email and tell me about your project and why you want to use DoodleUI. 😄
 
 ## Roadmap
 
