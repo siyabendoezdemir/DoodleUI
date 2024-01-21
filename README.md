@@ -87,7 +87,7 @@ See the [open issues](https://github.com/siyabendoezdemir/DoodleUI/issues) for a
 
 ## Contributing
 
-Currently I am not open to contributions for DoodleUI. Feel free to create requests though for new components and features or to report bugs and issues.
+Currently I am not open to contributions for DoodleUI. Feel free to create requests for new components and features or to report bugs and issues.
 
 
 
