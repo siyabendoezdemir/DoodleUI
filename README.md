@@ -93,7 +93,7 @@ Currently I am not open to contributions for DoodleUI. Feel free to create reque
 
 ## License
 
-As of right now DoodleUI is not open to the general public and therefore I ask you to please contact me before using it in your project.
+As of right now DoodleUI is not open to the general public, therefore I ask you to please contact me before using it in your project.
 
 ## Authors
 
