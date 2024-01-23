@@ -87,13 +87,13 @@ See the [open issues](https://github.com/siyabendoezdemir/DoodleUI/issues) for a
 
 ## Contributing
 
-Currently I am not open to contributions for DoodleUI. Feel free to create requests though for new components and features or to report bugs and issues.
+Currently I am not open to contributions for DoodleUI. Feel free to create requests for new components and features or to report bugs and issues.
 
 
 
 ## License
 
-As of right now DoodleUI is not open to the general public and therefore I ask you to please contact me before using it in your project.
+As of right now DoodleUI is not open to the general public, therefore I ask you to please contact me before using it in your project.
 
 ## Authors
 
