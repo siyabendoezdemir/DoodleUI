@@ -21,5 +21,5 @@ export const Primary: Story = (args) => (
   <Icon data-testId="IconPrimary-id" {...args} />
 );
 Primary.args = {
-  name: "faCalendar",
+  name: "user",
 };
