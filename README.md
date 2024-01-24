@@ -49,7 +49,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-You don't need much to run this project
+To set up this project locally follow these instructions
 
 * npm
 
