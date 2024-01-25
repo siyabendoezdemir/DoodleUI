@@ -1,0 +1,11 @@
+.iconButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  &:active {
+    box-shadow: -1px 1px 0px 0px !important;
+    transform: translate(-2px, 2px);
+  }
+}
