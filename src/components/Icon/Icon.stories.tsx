@@ -22,4 +22,5 @@ export const Primary: Story = (args) => (
 );
 Primary.args = {
   name: "user",
+  size: 'normal'
 };
