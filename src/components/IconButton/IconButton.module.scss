@@ -8,4 +8,8 @@
     box-shadow: -1px 1px 0px 0px !important;
     transform: translate(-2px, 2px);
   }
+
+  svg {
+    aspect-ratio: 1 / 1;
+  }
 }
