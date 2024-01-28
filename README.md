@@ -33,7 +33,7 @@
 
 ## About The Project
 
-Hi, I'm Siya and this is DoodleUI. It's my personal project where I combine my love for doodle art with web development. In this library, I've created a bunch of components using React.js and Sass. They're simple, fun, and have that doodle style I really like.
+Hi, I'm Siya and this is DoodleUI. It's my project where I combine my love for doodle art with web development. In this library, I've created a bunch of components using React.js and SCSS. They're simple, fun, and have that doodle style I really like.
 
 I made DoodleUI because I noticed there weren't many resources for this kind of design. It's built with React, Rollup & Storybook, which I found to be a great combination for this work. The project isn't open for contributions at the moment, but feel free to let me know about any bugs or things you think would be cool to add.
 
