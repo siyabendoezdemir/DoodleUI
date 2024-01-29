@@ -1,13 +1,14 @@
-import React, { FC, Fragment } from "react";
+import React, { FC, Fragment, useEffect, useState, forwardRef } from "react";
 import { InputProps } from "./Input.types";
 import styles from "./Input.module.scss";
 
 const Input: FC<InputProps> = ({
   width = 400,
   height = 50,
+  value,
   fontSize,
   id,
-  primary,
+  primary = true,
   disabled,
   label,
   message,
@@ -15,6 +16,7 @@ const Input: FC<InputProps> = ({
   success,
   onChange,
   placeholder,
+  focused,
   ...props
 }) => {
   const inputStyles = {
@@ -39,6 +41,7 @@ const Input: FC<InputProps> = ({
       <input
         id={id}
         type="text"
+        value={value}
         onChange={onChange}
         disabled={disabled}
         className={`

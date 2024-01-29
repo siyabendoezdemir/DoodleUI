@@ -9,4 +9,5 @@ export interface IconButtonProps {
   borderColor?: string;
   borderRadius?: number;
   onClick?: MouseEventHandler<HTMLButtonElement>;
+  disabled?: boolean;
 }

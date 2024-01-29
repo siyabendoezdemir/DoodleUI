@@ -3,6 +3,7 @@ import { ChangeEventHandler } from "react";
 export interface InputProps {
   width?: number;
   height?: number;
+  value?: string;
   fontSize?: number;
   id?: string;
   primary?: boolean;
@@ -13,4 +14,5 @@ export interface InputProps {
   disabled?: boolean;
   placeholder?: string;
   onChange?: ChangeEventHandler<HTMLInputElement>;
+  focused?: boolean;
 }
