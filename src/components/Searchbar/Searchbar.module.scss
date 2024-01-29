@@ -52,15 +52,14 @@
   &:focus-within .autoCompleteOptions {
     visibility: visible;
     opacity: 1;
-    max-height: 200px;
-    transition: max-height 0.2s ease, opacity 0.1s ease, visibility 0s 0s;
+    transition: opacity 0.1s ease, visibility 0s 0s;
   }
 
   .autoCompleteOptions {
     visibility: hidden;
     opacity: 0;
-    max-height: 0;
-    transition: max-height 0.2s ease, opacity 0.3s ease, visibility 0s 0.4s;
+    max-height: 200px;
+    transition: opacity 0.3s ease, visibility 0s 0.4s;
     position: absolute;
     top: 90%;
     left: 5px;
