@@ -4,12 +4,21 @@
   align-items: center;
   cursor: pointer;
 
-  &:active {
-    box-shadow: -1px 1px 0px 0px !important;
-    transform: translate(-2px, 2px);
+  &:not(&:disabled) {
+    &:active {
+      box-shadow: -1px 1px 0px 0px !important;
+      transform: translate(-2px, 2px);
+    }
   }
 
   svg {
     aspect-ratio: 1 / 1;
+  }
+
+  &.disabled {
+    cursor: default;
+    opacity: 0.4;
+    border: 2px solid black;
+    box-shadow: -3px 3px 0px 0px #000000;
   }
 }

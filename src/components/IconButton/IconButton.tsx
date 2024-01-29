@@ -12,11 +12,12 @@ const IconButton: FC<IconButtonProps> = ({
   borderColor,
   borderRadius,
   onClick,
+  disabled,
   ...props
 }) => {
   return (
     <button
-      className={styles.iconButton}
+      className={`${styles.iconButton} ${disabled ? styles.disabled : ""}`}
       onClick={onClick}
       style={{
         backgroundColor: backgroundColor,
@@ -24,6 +25,7 @@ const IconButton: FC<IconButtonProps> = ({
         border: `2px solid ${borderColor}`,
         boxShadow: `-2px 3px 0 0 ${borderColor}`,
       }}
+      disabled={disabled}
     >
       <Icon
         name={iconName}
