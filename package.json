@@ -48,6 +48,5 @@
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/@siyabendoezdemir"
-  },
-  "name": "@siyabendoezdemir/DoodleUI"
+  }
 }
