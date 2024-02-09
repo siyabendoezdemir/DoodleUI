@@ -45,5 +45,9 @@
     "@fortawesome/free-regular-svg-icons": "^6.5.1",
     "@fortawesome/free-solid-svg-icons": "^6.5.1",
     "@fortawesome/react-fontawesome": "^0.2.0"
-  }
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@siyabendoezdemir"
+  },
+  "name": "@siyabendoezdemir/DoodleUI"
 }
