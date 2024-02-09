@@ -1,7 +1,7 @@
 {
   "name": "@siyabendoezdemir/DoodleUI",
   "version": "1.0.0",
-  "description": "A UI component library made by me and for me because I love the doodle designs",
+  "description": "A UI component library made by me and for me because I love the doodle designs :D",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/index.d.ts",
