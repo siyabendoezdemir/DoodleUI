@@ -1,6 +1,6 @@
 {
   "name": "@siyabendoezdemir/doodle-ui",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A resuable UI component library made by me and for me because I love the doodle designs :D",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
