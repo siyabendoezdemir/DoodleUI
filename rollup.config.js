@@ -3,7 +3,7 @@ import commonjs from "@rollup/plugin-commonjs";
 import typescript from "@rollup/plugin-typescript";
 import dts from "rollup-plugin-dts";
 import peerDepsExternal from "rollup-plugin-peer-deps-external";
-import sass from "rollup-plugin-sass";
+import postcss from "rollup-plugin-postcss";
 
 const packageJson = require("./package.json");
 
@@ -27,7 +27,11 @@ export default [
       resolve(),
       commonjs(),
       typescript({ tsconfig: "./tsconfig.json" }),
-      sass({ output: true }),
+      postcss({
+        extract: false,
+        modules: true,
+        use: ["sass"],
+      }),
     ],
     external: ["react", "react-dom", "styled-components"],
   },
