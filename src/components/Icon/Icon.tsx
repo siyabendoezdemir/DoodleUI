@@ -6,8 +6,9 @@ import { IconName, library, SizeProp } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { far } from "@fortawesome/free-regular-svg-icons";
 import { fas } from "@fortawesome/free-solid-svg-icons";
+import { fab } from "@fortawesome/free-brands-svg-icons";
 
-library.add(far, fas);
+library.add(far, fas, fab);
 
 const Icon: FC<IconProps> = ({
   name,
@@ -20,7 +21,8 @@ const Icon: FC<IconProps> = ({
   ...props
 }) => {
   let iconName: IconName = name.toLowerCase() as IconName;
-  const iconType = type === "solid" ? "fas" : "far";
+  const iconType =
+    type === "solid" ? "fas" : type === "regular" ? "far" : "fab";
 
   return (
     <FontAwesomeIcon

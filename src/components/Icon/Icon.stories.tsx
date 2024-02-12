@@ -9,7 +9,7 @@ const meta: Meta<typeof Icon> = {
   argTypes: {
     type: {
       control: { type: "radio" },
-      options: ["solid", "regular"],
+      options: ["solid", "regular", "brand"],
     },
   },
 };
@@ -22,5 +22,5 @@ export const Primary: Story = (args) => (
 );
 Primary.args = {
   name: "user",
-  size: 'normal'
+  size: "normal",
 };

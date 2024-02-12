@@ -9,7 +9,7 @@ const meta: Meta<typeof IconButton> = {
   argTypes: {
     iconType: {
       control: { type: "radio" },
-      options: ["solid", "regular"],
+      options: ["solid", "regular", "brand"],
     },
   },
 };
