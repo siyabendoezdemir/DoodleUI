@@ -27,7 +27,7 @@ export default [
       resolve(),
       commonjs(),
       typescript({ tsconfig: "./tsconfig.json" }),
-      sass({ output: true }),
+      sass({ output: "dist/styles.css" }),
     ],
     external: ["react", "react-dom", "styled-components"],
   },
