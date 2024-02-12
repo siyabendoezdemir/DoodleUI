@@ -1,1 +1,1 @@
-export * from './Loadingbar';
+export { default as Loadingbar } from "./Loadingbar";
