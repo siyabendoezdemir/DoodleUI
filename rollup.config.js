@@ -27,20 +27,7 @@ export default [
       resolve(),
       commonjs(),
       typescript({ tsconfig: "./tsconfig.json" }),
-      postcss({
-        modules: true, // Enable CSS modules
-        extensions: [".scss", ".css"],
-        use: [
-          [
-            "sass",
-            {
-              includePaths: ["./src/styles", "./node_modules"],
-            },
-          ],
-        ],
-        extract: true, // Extract to a single file
-        extract: path.resolve("dist/styles.css"), // Specify the output path
-      }),
+      sass({ output: "dist/styles.css" }),
     ],
     external: ["react", "react-dom", "styled-components"],
   },
